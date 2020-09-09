@@ -259,6 +259,11 @@ nav {
     border-left: .5rem solid cadetblue;
 }
 
+.comment {
+    background-color: azure;
+    padding-top: 3rem;
+}
+
 .comment-contain {
     width: 100%;
     margin: 0 auto;
