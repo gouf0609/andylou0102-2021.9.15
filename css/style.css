@@ -259,6 +259,12 @@ nav {
     border-left: .5rem solid cadetblue;
 }
 
+.comment-contain {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 .75rem 2rem .75rem;
+}
+
 @media screen and (max-width: 600px) {
     header.masthead .site-heading {
         padding: 140px 50px 100px;
@@ -299,7 +305,8 @@ nav {
     .nav-contain,
     .masthead .site-heading,
     .about-contain,
-    .project-contain {
+    .project-contain,
+    .comment-contain {
         max-width: 720px;
     }
 }
@@ -308,7 +315,8 @@ nav {
     .nav-contain,
     .masthead .site-heading,
     .about-contain,
-    .project-contain {
+    .project-contain,
+    .comment-contain {
         max-width: 960px;
     }
 }
@@ -317,7 +325,8 @@ nav {
     .nav-contain,
     .masthead .site-heading,
     .about-contain,
-    .project-contain {
+    .project-contain,
+    .comment-contain {
         max-width: 1140px;
     }
 }
