@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1, shrink-to-fit=no">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/14bb5502c3.js" crossorigin="anonymous"></script>
+    <!-- Bootstrape -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Andy's Website</title>
+</head>
+<body>
+    <nav>
+        <div class='nav-contain'>
+            <a href="#">SIANHONG</a>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-items">
+                <a href="#">About</a>
+                <a href="#">Project</a>
+                <a href="#">Contect</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead" style="background-image: url('img/1503133946710.jpg');">
+        <div class="overlay"></div>
+        <div class="site-heading">
+            <h3>I'm</h3>
+            <h1>— Andy Lou —</h1>
+        </div>
+    </header>
+
+    <section class="about-page">
+        <div class="about-contain">
+            <h1>About?</h1>
+            <p>This web page built with</p>
+            <div class="about-img">
+                <div>
+                    <h3>HTML</h3>
+                    <img src="img/1200px-HTML5_logo_and_wordmark.svg.png" alt="html5">
+                </div>
+                <div>
+                    <h3>CSS</h3>
+                    <img src="img/1_50R1_jrwum8K-54tZFeefQ.png" alt="css3">
+                </div>
+                <div>
+                    <h3>JavaScript</h3>
+                    <img src="img/Javascript-shield.png" alt="js">
+                </div>
+            </div>
+            <p>And me</p>
+            <div class="about-img">
+                <img class="about-photo" src="img/line_3843303589215.jpg" alt="my photo">
+                <p>Graduate from CGU CSIE, I like to play basketball, watch movie, play board game with friends and keep little
+                    animal as my casual events, I love thinking and analysing problems, programing is my life, my goal is using
+                    my skill to solve "real world" problems, that will make me full of a sense of accomplishment, and I will 
+                    always do my best to be a outstanding web engineer.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-page">
+        <div class="project-contain">
+            <h1>Project</h1>
+            <div class="project-img">
+                <img src="img/messageImage_1599578162227.jpg" alt="project01">
+                <article class="left">
+                    <h4>FlaskBlog</h4>
+                    <p>This is my first web side project using python flask with SQLAlchemy, it's
+                        a simple blog that can register, log in log out, reset password, contect me
+                        and post article, build on Heroku, if you want to know more about this web, 
+                        <a href="https://flask-app-lou.herokuapp.com/">click here</a>
+                    </p>
+                </article>
+            </div>
+            <div class="project-img">
+                <article class="right">
+                    <h4>Personal Web</h4>
+                    <p>This is what you are watching, feature is I not using any Bootstrape 4 to
+                        implement my project, because it is so convenient that you don't need to
+                        know more detail about CSS, so I try not using it to build my simple personal web
+                    </p>
+                </article>
+                <img src="img/messageImage_1599501300730.jpg" alt="project02">
+            </div>
+        </div>
+    </section>
+
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://andylou-website.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
