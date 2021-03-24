@@ -445,6 +445,7 @@ nav {
 .carousel-container {
     overflow: hidden;
     position: relative;
+    padding: 50px 0;
 }
 
 .carousel-container h1 {
@@ -509,8 +510,8 @@ nav {
 
 .manual {
     position: absolute;
-    top: 70%;
-    left: 48%;
+    top: 73%;
+    left: 46.5%;
 }
 
 .manual label:hover {
@@ -519,6 +520,7 @@ nav {
 }
 
 .circle-slider {
+    font-size: 10px;
     /* border: 2px solid grey; */
     background-color: rgba(158, 158, 158, 0.8);
     padding: 2px 12px;
@@ -529,7 +531,21 @@ nav {
 
 @media screen and (max-width: 991px) {
     .manual {
-    left: 45%;
+        left: 45%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .manual {
+        top: 65%;
+        left: 44%;
+    }
+    .circle-slider {
+        font-size: 6px;
+        padding: 1px 7px;
+    }
+    .carousel-container {
+        padding: 50px 0 100px;
     }
 }
 
